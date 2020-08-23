@@ -1,0 +1,10 @@
+C:\Data\Development\C#\Traveling System\Win.UI\bin\Debug\Win.UI.exe.config
+C:\Data\Development\C#\Traveling System\Win.UI\bin\Debug\Win.UI.exe
+C:\Data\Development\C#\Traveling System\Win.UI\bin\Debug\Win.UI.pdb
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.csprojAssemblyReference.cache
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.FormLogin.resources
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.Properties.Resources.resources
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.csproj.GenerateResource.cache
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.csproj.CoreCompileInputs.cache
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.exe
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.pdb
