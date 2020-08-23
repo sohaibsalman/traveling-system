@@ -51,13 +51,14 @@
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.Location = new System.Drawing.Point(346, 307);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 39);
-            this.button1.TabIndex = 15;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -73,10 +74,10 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(474, 371);
+            this.linkLabel2.Location = new System.Drawing.Point(465, 371);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(40, 13);
-            this.linkLabel2.TabIndex = 13;
+            this.linkLabel2.TabIndex = 4;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Signup";
             // 
@@ -86,7 +87,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(346, 272);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(92, 13);
-            this.linkLabel1.TabIndex = 12;
+            this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password?";
             // 
@@ -96,7 +97,7 @@
             this.textBox1.Location = new System.Drawing.Point(346, 231);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(333, 26);
-            this.textBox1.TabIndex = 11;
+            this.textBox1.TabIndex = 1;
             this.textBox1.UseSystemPasswordChar = true;
             // 
             // comboBox1
@@ -107,7 +108,7 @@
             this.comboBox1.Location = new System.Drawing.Point(346, 153);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(333, 28);
-            this.comboBox1.TabIndex = 10;
+            this.comboBox1.TabIndex = 0;
             // 
             // label2
             // 
