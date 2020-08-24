@@ -83,6 +83,16 @@ namespace Win.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap car_64px {
+            get {
+                object obj = ResourceManager.GetObject("car_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_window_32px {
             get {
                 object obj = ResourceManager.GetObject("close_window_32px", resourceCulture);
@@ -136,6 +146,16 @@ namespace Win.UI.Properties {
         internal static System.Drawing.Bitmap homepage {
             get {
                 object obj = ResourceManager.GetObject("homepage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap landscape_64px {
+            get {
+                object obj = ResourceManager.GetObject("landscape_64px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +233,16 @@ namespace Win.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap steering_wheel_64px {
+            get {
+                object obj = ResourceManager.GetObject("steering_wheel_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap traffic_jam_30px {
             get {
                 object obj = ResourceManager.GetObject("traffic_jam_30px", resourceCulture);
@@ -226,6 +256,16 @@ namespace Win.UI.Properties {
         internal static System.Drawing.Bitmap traveler_30px {
             get {
                 object obj = ResourceManager.GetObject("traveler_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap traveler_64px {
+            get {
+                object obj = ResourceManager.GetObject("traveler_64px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
