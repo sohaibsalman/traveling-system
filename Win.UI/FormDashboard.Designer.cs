@@ -47,10 +47,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblAvailableCars = new System.Windows.Forms.Label();
+            this.lblAvailableDrivers = new System.Windows.Forms.Label();
+            this.lblCurrentBookings = new System.Windows.Forms.Label();
+            this.lblTotalPlaces = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -227,7 +227,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(68)))), ((int)(((byte)(173)))));
-            this.panel9.Controls.Add(this.label12);
+            this.panel9.Controls.Add(this.lblTotalPlaces);
             this.panel9.Controls.Add(this.label8);
             this.panel9.Controls.Add(this.pictureBox5);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -239,7 +239,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(84)))), ((int)(((byte)(0)))));
-            this.panel8.Controls.Add(this.label11);
+            this.panel8.Controls.Add(this.lblCurrentBookings);
             this.panel8.Controls.Add(this.label7);
             this.panel8.Controls.Add(this.pictureBox4);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -251,7 +251,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(160)))), ((int)(((byte)(133)))));
-            this.panel6.Controls.Add(this.label10);
+            this.panel6.Controls.Add(this.lblAvailableDrivers);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -263,7 +263,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.panel7.Controls.Add(this.label9);
+            this.panel7.Controls.Add(this.lblAvailableCars);
             this.panel7.Controls.Add(this.label5);
             this.panel7.Controls.Add(this.pictureBox2);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -320,57 +320,57 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "TOTAL PLACES";
             // 
-            // label9
+            // lblAvailableCars
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblAvailableCars.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(3, 20);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(89, 63);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "00";
+            this.lblAvailableCars.AutoSize = true;
+            this.lblAvailableCars.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvailableCars.ForeColor = System.Drawing.Color.White;
+            this.lblAvailableCars.Location = new System.Drawing.Point(3, 20);
+            this.lblAvailableCars.Name = "lblAvailableCars";
+            this.lblAvailableCars.Size = new System.Drawing.Size(89, 63);
+            this.lblAvailableCars.TabIndex = 2;
+            this.lblAvailableCars.Text = "00";
             // 
-            // label10
+            // lblAvailableDrivers
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblAvailableDrivers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(3, 20);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 63);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "00";
+            this.lblAvailableDrivers.AutoSize = true;
+            this.lblAvailableDrivers.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvailableDrivers.ForeColor = System.Drawing.Color.White;
+            this.lblAvailableDrivers.Location = new System.Drawing.Point(3, 20);
+            this.lblAvailableDrivers.Name = "lblAvailableDrivers";
+            this.lblAvailableDrivers.Size = new System.Drawing.Size(89, 63);
+            this.lblAvailableDrivers.TabIndex = 2;
+            this.lblAvailableDrivers.Text = "00";
             // 
-            // label11
+            // lblCurrentBookings
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblCurrentBookings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(3, 20);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(89, 63);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "00";
+            this.lblCurrentBookings.AutoSize = true;
+            this.lblCurrentBookings.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentBookings.ForeColor = System.Drawing.Color.White;
+            this.lblCurrentBookings.Location = new System.Drawing.Point(3, 20);
+            this.lblCurrentBookings.Name = "lblCurrentBookings";
+            this.lblCurrentBookings.Size = new System.Drawing.Size(89, 63);
+            this.lblCurrentBookings.TabIndex = 2;
+            this.lblCurrentBookings.Text = "00";
             // 
-            // label12
+            // lblTotalPlaces
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblTotalPlaces.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(0, 20);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 63);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "00";
+            this.lblTotalPlaces.AutoSize = true;
+            this.lblTotalPlaces.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPlaces.ForeColor = System.Drawing.Color.White;
+            this.lblTotalPlaces.Location = new System.Drawing.Point(0, 20);
+            this.lblTotalPlaces.Name = "lblTotalPlaces";
+            this.lblTotalPlaces.Size = new System.Drawing.Size(89, 63);
+            this.lblTotalPlaces.TabIndex = 2;
+            this.lblTotalPlaces.Text = "00";
             // 
             // pictureBox5
             // 
@@ -689,10 +689,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblAvailableCars;
+        private System.Windows.Forms.Label lblTotalPlaces;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblCurrentBookings;
+        private System.Windows.Forms.Label lblAvailableDrivers;
     }
 }
