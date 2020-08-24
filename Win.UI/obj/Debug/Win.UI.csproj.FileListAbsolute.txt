@@ -8,3 +8,4 @@ C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.csproj.GenerateR
 C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.csproj.CoreCompileInputs.cache
 C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.exe
 C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.pdb
+C:\Data\Development\C#\Traveling System\Win.UI\obj\Debug\Win.UI.FormDashboard.resources

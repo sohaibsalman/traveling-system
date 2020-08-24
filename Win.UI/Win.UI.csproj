@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +97,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\minimize_window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\users\default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\traveler_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\price_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\mountain_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\traffic_jam_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\driver_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\combo_chart_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\settings_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\logout_rounded_left_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons\cancel_30px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
