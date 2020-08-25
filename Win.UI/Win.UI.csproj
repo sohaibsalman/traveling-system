@@ -155,5 +155,14 @@
   <ItemGroup>
     <None Include="img\dashboard\landscape_64px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\dashboard\euro_money_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\dashboard\wheel_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\dashboard\task_completed_100px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

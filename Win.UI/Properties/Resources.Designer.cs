@@ -143,6 +143,16 @@ namespace Win.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap euro_money_64px {
+            get {
+                object obj = ResourceManager.GetObject("euro_money_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap homepage {
             get {
                 object obj = ResourceManager.GetObject("homepage", resourceCulture);
@@ -243,6 +253,16 @@ namespace Win.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap task_completed_100px {
+            get {
+                object obj = ResourceManager.GetObject("task_completed_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap traffic_jam_30px {
             get {
                 object obj = ResourceManager.GetObject("traffic_jam_30px", resourceCulture);
@@ -266,6 +286,16 @@ namespace Win.UI.Properties {
         internal static System.Drawing.Bitmap traveler_64px {
             get {
                 object obj = ResourceManager.GetObject("traveler_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wheel_64px {
+            get {
+                object obj = ResourceManager.GetObject("wheel_64px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
