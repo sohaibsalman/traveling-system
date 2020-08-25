@@ -74,9 +74,11 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.lblCompletedTours = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.lblCarsAvailableTomorrow = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -85,8 +87,15 @@
             this.lblMonth = new System.Windows.Forms.Label();
             this.lblDayTime = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
-            this.lblCarsAvailableTomorrow = new System.Windows.Forms.Label();
-            this.lblCompletedTours = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.gridDrviersStatus = new System.Windows.Forms.DataGridView();
+            this.gridCustomersStatus = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.winMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.winClose)).BeginInit();
@@ -113,6 +122,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel15.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDrviersStatus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridCustomersStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -655,7 +671,7 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.63265F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.36735F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 209F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 210F));
             this.tableLayoutPanel2.Controls.Add(this.panel12, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel13, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.panel14, 1, 0);
@@ -680,7 +696,7 @@
             this.panel12.Location = new System.Drawing.Point(3, 3);
             this.panel12.Name = "panel12";
             this.tableLayoutPanel2.SetRowSpan(this.panel12, 2);
-            this.panel12.Size = new System.Drawing.Size(326, 178);
+            this.panel12.Size = new System.Drawing.Size(325, 178);
             this.panel12.TabIndex = 0;
             // 
             // lblEarnings
@@ -701,7 +717,7 @@
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = global::Win.UI.Properties.Resources.euro_money_64px;
-            this.pictureBox6.Location = new System.Drawing.Point(213, 43);
+            this.pictureBox6.Location = new System.Drawing.Point(212, 43);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(90, 90);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -727,10 +743,23 @@
             this.panel13.Controls.Add(this.label12);
             this.panel13.Controls.Add(this.pictureBox8);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel13.Location = new System.Drawing.Point(335, 95);
+            this.panel13.Location = new System.Drawing.Point(334, 95);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(248, 86);
             this.panel13.TabIndex = 1;
+            // 
+            // lblCompletedTours
+            // 
+            this.lblCompletedTours.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCompletedTours.AutoSize = true;
+            this.lblCompletedTours.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompletedTours.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblCompletedTours.Location = new System.Drawing.Point(3, 4);
+            this.lblCompletedTours.Name = "lblCompletedTours";
+            this.lblCompletedTours.Size = new System.Drawing.Size(89, 63);
+            this.lblCompletedTours.TabIndex = 2;
+            this.lblCompletedTours.Text = "00";
             // 
             // label12
             // 
@@ -763,10 +792,23 @@
             this.panel14.Controls.Add(this.label11);
             this.panel14.Controls.Add(this.pictureBox7);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(335, 3);
+            this.panel14.Location = new System.Drawing.Point(334, 3);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(248, 86);
             this.panel14.TabIndex = 2;
+            // 
+            // lblCarsAvailableTomorrow
+            // 
+            this.lblCarsAvailableTomorrow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCarsAvailableTomorrow.AutoSize = true;
+            this.lblCarsAvailableTomorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCarsAvailableTomorrow.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblCarsAvailableTomorrow.Location = new System.Drawing.Point(3, 4);
+            this.lblCarsAvailableTomorrow.Name = "lblCarsAvailableTomorrow";
+            this.lblCarsAvailableTomorrow.Size = new System.Drawing.Size(89, 63);
+            this.lblCarsAvailableTomorrow.TabIndex = 2;
+            this.lblCarsAvailableTomorrow.Text = "00";
             // 
             // label11
             // 
@@ -797,10 +839,10 @@
             this.panel11.BackColor = System.Drawing.Color.White;
             this.panel11.Controls.Add(this.panel15);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel11.Location = new System.Drawing.Point(589, 3);
+            this.panel11.Location = new System.Drawing.Point(588, 3);
             this.panel11.Name = "panel11";
             this.tableLayoutPanel2.SetRowSpan(this.panel11, 2);
-            this.panel11.Size = new System.Drawing.Size(204, 178);
+            this.panel11.Size = new System.Drawing.Size(205, 178);
             this.panel11.TabIndex = 3;
             // 
             // panel15
@@ -813,7 +855,7 @@
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(0, 0);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(204, 178);
+            this.panel15.Size = new System.Drawing.Size(205, 178);
             this.panel15.TabIndex = 1;
             // 
             // lblYear
@@ -863,31 +905,104 @@
             this.lblDate.TabIndex = 0;
             this.lblDate.Text = "00";
             // 
-            // lblCarsAvailableTomorrow
+            // tableLayoutPanel3
             // 
-            this.lblCarsAvailableTomorrow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCarsAvailableTomorrow.AutoSize = true;
-            this.lblCarsAvailableTomorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCarsAvailableTomorrow.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCarsAvailableTomorrow.Location = new System.Drawing.Point(3, 4);
-            this.lblCarsAvailableTomorrow.Name = "lblCarsAvailableTomorrow";
-            this.lblCarsAvailableTomorrow.Size = new System.Drawing.Size(89, 63);
-            this.lblCarsAvailableTomorrow.TabIndex = 2;
-            this.lblCarsAvailableTomorrow.Text = "00";
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.panel16, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.panel17, 1, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(276, 334);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(796, 454);
+            this.tableLayoutPanel3.TabIndex = 6;
             // 
-            // lblCompletedTours
+            // panel16
             // 
-            this.lblCompletedTours.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCompletedTours.AutoSize = true;
-            this.lblCompletedTours.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompletedTours.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCompletedTours.Location = new System.Drawing.Point(3, 4);
-            this.lblCompletedTours.Name = "lblCompletedTours";
-            this.lblCompletedTours.Size = new System.Drawing.Size(89, 63);
-            this.lblCompletedTours.TabIndex = 2;
-            this.lblCompletedTours.Text = "00";
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(90)))), ((int)(((byte)(70)))));
+            this.panel16.Controls.Add(this.gridDrviersStatus);
+            this.panel16.Controls.Add(this.panel18);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel16.Location = new System.Drawing.Point(3, 3);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(392, 448);
+            this.panel16.TabIndex = 0;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(40)))), ((int)(((byte)(32)))));
+            this.panel18.Controls.Add(this.label10);
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel18.Location = new System.Drawing.Point(0, 0);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(392, 44);
+            this.panel18.TabIndex = 0;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label10.Location = new System.Drawing.Point(10, 12);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(109, 20);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Drivers Status";
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(90)))), ((int)(((byte)(70)))));
+            this.panel17.Controls.Add(this.gridCustomersStatus);
+            this.panel17.Controls.Add(this.panel19);
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel17.Location = new System.Drawing.Point(401, 3);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(392, 448);
+            this.panel17.TabIndex = 1;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(40)))), ((int)(((byte)(32)))));
+            this.panel19.Controls.Add(this.label13);
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel19.Location = new System.Drawing.Point(0, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(392, 44);
+            this.panel19.TabIndex = 0;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label13.Location = new System.Drawing.Point(10, 12);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(137, 20);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Customers Status";
+            // 
+            // gridDrviersStatus
+            // 
+            this.gridDrviersStatus.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(90)))), ((int)(((byte)(70)))));
+            this.gridDrviersStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridDrviersStatus.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridDrviersStatus.Location = new System.Drawing.Point(0, 44);
+            this.gridDrviersStatus.Name = "gridDrviersStatus";
+            this.gridDrviersStatus.Size = new System.Drawing.Size(392, 404);
+            this.gridDrviersStatus.TabIndex = 1;
+            // 
+            // gridCustomersStatus
+            // 
+            this.gridCustomersStatus.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(90)))), ((int)(((byte)(70)))));
+            this.gridCustomersStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridCustomersStatus.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridCustomersStatus.Location = new System.Drawing.Point(0, 44);
+            this.gridCustomersStatus.Name = "gridCustomersStatus";
+            this.gridCustomersStatus.Size = new System.Drawing.Size(392, 404);
+            this.gridCustomersStatus.TabIndex = 1;
             // 
             // FormDashboard
             // 
@@ -895,6 +1010,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(70)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(1072, 788);
+            this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel3);
@@ -945,6 +1061,15 @@
             this.panel11.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.panel16.ResumeLayout(false);
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDrviersStatus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridCustomersStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1009,5 +1134,14 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label lblCompletedTours;
         private System.Windows.Forms.Label lblCarsAvailableTomorrow;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.DataGridView gridDrviersStatus;
+        private System.Windows.Forms.DataGridView gridCustomersStatus;
     }
 }
