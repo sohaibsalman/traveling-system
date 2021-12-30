@@ -164,5 +164,8 @@
   <ItemGroup>
     <None Include="img\dashboard\task_completed_100px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\users\defautlt.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

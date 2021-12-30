@@ -133,6 +133,9 @@
   <data name="PngItem_1659122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\PngItem_1659122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="car_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\dashboard\car_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="price_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons\price_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,14 +145,11 @@
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="default1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\users\default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="wheel_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\dashboard\wheel_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="euro_money_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\dashboard\euro_money_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="default1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\users\default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close_window_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\close_window_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +163,14 @@
   <data name="settings_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons\settings_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="task_completed_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\dashboard\task_completed_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout_rounded_left_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons\logout_rounded_left_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="car_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\dashboard\car_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="euro_money_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\dashboard\euro_money_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="driver_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons\driver_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +190,7 @@
   <data name="traveler_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\icons\traveler_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="task_completed_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\dashboard\task_completed_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="defautlt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\users\defautlt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

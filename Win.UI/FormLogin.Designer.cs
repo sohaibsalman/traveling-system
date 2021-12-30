@@ -135,10 +135,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Pristina", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(370, 93);
+            this.label4.Font = new System.Drawing.Font("Poppins Light", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(369, 104);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(263, 35);
+            this.label4.Size = new System.Drawing.Size(268, 34);
             this.label4.TabIndex = 16;
             this.label4.Text = "Login to Pakistan Travels";
             // 

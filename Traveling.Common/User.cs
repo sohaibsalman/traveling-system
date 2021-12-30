@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Traveling.Common
 {
-    public class User
+    public class User: Person
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public DateTime RegistrationDate { get; set; }
